@@ -1,15 +1,25 @@
 body {
     background-color: powderblue;
+
+    
 }
 
 h1 {
     text-align: center;
 }
 
+.wrapper {
+     display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
 .container {
     display: flex;
-    justify-content: end;
-    height: 80%;
+    width: 90%;
+    height:auto;
+    
 }
 
 .top,
@@ -55,3 +65,12 @@ hr {
 #icons {
     width: 10%;
 }
+
+h5, #one, #two, #three{
+    margin: 0;
+}
+
+h5 {
+    color:burlywood
+}
+    
